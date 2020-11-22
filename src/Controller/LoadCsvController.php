@@ -64,7 +64,7 @@ class LoadCsvController
                                     'destinataire' => $row[18],
                                     'reference' => $row[25],
                                     'bon_de_transport' => $row[26],
-                                    'montant_ht_total' => intval($row[30]),
+                                    'montant_ht_total' => floatval($row[30]),
                                 ];
                             } 
                         }
