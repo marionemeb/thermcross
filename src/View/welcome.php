@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/assets/css/welcome.css">
-        <link rel="stylesheet" href="/assets/css/title.css">
-        <link href="/assets/css/all.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/fontawesome.min.css" rel="stylesheet">
         <title>Acquisition et stockage des données</title>
     </head>
     <body>
@@ -19,7 +18,7 @@
                     <input type="file" name="file" id="file">
                     <input type="submit" value="Télécharger" name="submit" class="button">
                 </form>
-                <a href="/data/index" class="arrow"><h1>Afficher les données</h1><i class="fas fa-angle-right"></i></a>
+                <a href="/data/index" class="arrow"><h1>Afficher les données</h1></a>
             </div>
         </div>
         

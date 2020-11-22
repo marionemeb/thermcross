@@ -5,11 +5,11 @@
         <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width,">
         <link rel="stylesheet" href="/assets/css/display.css">
         <link rel="stylesheet" href="/assets/css/dropdown.css">
-        <link rel="stylesheet" href="/assets/css/title.css">
         <title>Affichage des données</title>
     </head>
     <body>
         <div class="container">
+            <img src="/assets/images/logo-3.jpg">
             <h1 class="home-title"><span>Visualisation des données</span></h1>
             <a href="/home/index"><h2>Importer de nouvelles données</h2></a>
 
