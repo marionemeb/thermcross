@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="container">
-            <img src="/assets/images/logo-3.jpg">
+            <img src="/assets/images/logo-3.jpg" alt="logo thermcross">
             <h1 class="home-title"><span>Visualisation des données</span></h1>
             <a href="/home/index"><h2>Importer de nouvelles données</h2></a>
 
