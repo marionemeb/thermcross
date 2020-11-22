@@ -1,18 +1,18 @@
 body {
   background-color: #ffffff;
-  font-family: "Lato", Helvetica, Arial;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 
 .container {
-  width: 70vw;
   min-height: 100vh;
   margin: auto auto;
   background-color: #f5bc17;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 h1{
@@ -21,8 +21,7 @@ h1{
 
 h2{
   margin-top: 60px;
-  text-align: left;
-  margin-left: 110px;
+  text-align: center;
 }
 
 /*************** TABLE*************************************/
@@ -60,18 +59,20 @@ div.table-title {
 }
 
 .toggle th{
-  border-right: 1px solid #1b1e24 !important;
+  border-right: none !important;
+  height: 80px !important;
+  padding-left: 20px;
 }
  
 th {
   color:#D5DDE5;;
-  background:#1b1e24;
+  background:rgba(0,0,0,.8);;
   border-bottom:4px solid #9ea7af;
   border-right: 1px solid #343a45;
   font-size:18px;
   font-weight: 100;
   padding: 5px 5px;
-  text-align:left;
+  text-align: center;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align:middle;
 }
@@ -163,13 +164,8 @@ td.text-right {
   text-align: right;
 }
 
-
-a{
-  text-decoration: none;
-}
-
 a:visited {
-  color: #ff8400;
+  color: #ff3300;
 }
 
 a:hover {
