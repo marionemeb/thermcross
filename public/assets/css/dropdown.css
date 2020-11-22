@@ -1,0 +1,108 @@
+ 
+*, *:before, *:after {
+    -webkit-border-sizing: border-box;
+    -moz-border-sizing: border-box;
+    box-sizing: border-box;
+}
+
+animation content {
+    animation: content;
+    -moz-animation: content;
+    -webkit-animation: content;
+}
+
+.title {
+font-family: 'Pacifico';
+font-weight: norma;
+font-size: 40px;
+text-align: center;
+line-height: 1.4;
+}
+
+.toggle {
+    position: relative;
+    color: white;
+    box-shadow: grey;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.icon {
+    text-align: center;
+    display: block;
+    font-size: 0.7em;
+    color: #fff;
+    top: 14px;
+    right: 10px;
+}
+
+.open {
+    transform: rotate(-180deg);
+    transition: transform .6s;
+}
+.close {
+    transform: rotate(0deg);
+    transition: transform .6s;
+}
+
+.icon:before {
+    content: '\25BC';
+}
+
+.dropdown{
+    width: 100%;
+}
+
+
+.dropdown-menu {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.show {
+    max-height: 9999px;
+    display: visible;
+}
+
+.hide {
+    max-height: 0;
+    display: none;
+}
+
+@keyframes showAnimation {
+    0% {
+        transform: scaleY(0.1);
+    }
+    40% {
+        transform:scaleY(1.04);
+    }
+    60% {
+        transform:scaleY(0.98);
+    }
+    80% {
+        transform:scaleY(1.04);
+    }
+    100% {
+        transform:scaleY(0.98);
+    }				
+    80% {
+        transform:scaleY(1.02);
+    }
+    100% {
+        transform:scaleY(1);
+    }
+}
+
+@keyframes hideAnimation {
+0% {
+    transform:scaleY(1);
+}
+60% {
+    transform:scaleY(0.98);
+}
+80% {
+    transform:scaleY(1.02);
+}
+100% {
+    transform:scaleY(0);
+}

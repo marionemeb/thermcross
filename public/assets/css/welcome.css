@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+  background-color: #ffffff;
+  font-family: "Lato", Helvetica, Arial;
+  font-size: 12px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  width: 100vw;
+  height: 100vh
+}
+
+.container{
+  width: 70vw;
+  margin: auto auto;
+}
+
+.content{
+  width: 70vw;
+  height: 100vh;
+  background-color: #f5bc17;
+  text-align: center;
+}
+
+.content img{
+  width: 600px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.box {
+  font-size: 1.25rem;
+  background-color: white;
+  padding: 3rem 8rem;
+  width: 340px;
+  margin: auto;
+}
+
+.box img{
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+input{
+  margin-top: 30px;
+}
+
+.button {
+  background: #e9a30c;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+  color: #fff;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 2.5rem;
+  overflow: auto;
+  padding: 1rem 1.5rem;
+}
+
+.button:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
+}
+
+.button:active {
+  box-shadow: none;
+}
+
+.arrow img{
+  width: 5%;
+  margin-top: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff8400;
+}
+
+a:hover {
+  color: #585550;   
+}
