@@ -2,7 +2,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: "Lato", Helvetica, Arial;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -11,33 +11,45 @@ body {
 }
 
 .container{
-  width: 70vw;
   margin: auto auto;
 }
 
 .content{
-  width: 70vw;
   height: 100vh;
   background-color: #f5bc17;
   text-align: center;
 }
 
 .content img{
-  width: 600px;
-  margin-top: 30px;
+  width: 300px;
+  margin-top: 5vh;
   border-radius: 5px;
+}
+
+.home-title{
+  margin: 5vh auto;
 }
 
 .box {
   font-size: 1.25rem;
   background-color: white;
-  padding: 3rem 8rem;
-  width: 340px;
+  padding: 40px 0px;
+  width: 400px;
   margin: auto;
 }
 
+.card {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+  background-color:#FFF;
+}
+
+.card:hover {
+  box-shadow: 0 8px 8px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);
+}
+
 .box img{
-  width: 30%;
+  width: 15%;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -73,12 +85,8 @@ input{
   margin-top: 0;
 }
 
-a{
-  text-decoration: none;
-}
-
 a:visited {
-  color: #ff8400;
+  color: #ff3300;
 }
 
 a:hover {
